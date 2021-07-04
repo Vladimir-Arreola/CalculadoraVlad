@@ -10,12 +10,16 @@
     <EditText
         android:id="@+id/etVisor"
         android:layout_width="403dp"
-        android:layout_height="207dp"
+        android:layout_height="wrap_content"
         android:ems="10"
         android:gravity="center_vertical|end"
         android:inputType="number"
+        android:text="0"
         android:textSize="60sp"
-        tools:layout_editor_absoluteX="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:text="0" />
 
     <TableLayout
@@ -39,7 +43,8 @@
                 android:layout_margin="3dp"
                 android:layout_weight="1"
                 android:text="7"
-                android:textSize="45sp" />
+                android:textSize="45sp"
+                app:backgroundTint="#FF9800" />
 
             <Button
                 android:id="@+id/btn8"
@@ -48,7 +53,8 @@
                 android:layout_margin="3dp"
                 android:layout_weight="1"
                 android:text="8"
-                android:textSize="45sp" />
+                android:textSize="45sp"
+                app:backgroundTint="#FF9800" />
 
             <Button
                 android:id="@+id/btn9"
@@ -57,7 +63,8 @@
                 android:layout_margin="3dp"
                 android:layout_weight="1"
                 android:text="9"
-                android:textSize="45sp" />
+                android:textSize="45sp"
+                app:backgroundTint="#FF9800" />
         </TableRow>
 
         <TableRow
@@ -72,7 +79,8 @@
                 android:layout_margin="3dp"
                 android:layout_weight="1"
                 android:text="4"
-                android:textSize="45sp" />
+                android:textSize="45sp"
+                app:backgroundTint="#FF9800" />
 
             <Button
                 android:id="@+id/button6"
@@ -81,7 +89,8 @@
                 android:layout_margin="3dp"
                 android:layout_weight="1"
                 android:text="5"
-                android:textSize="45sp" />
+                android:textSize="45sp"
+                app:backgroundTint="#FF9800" />
 
             <Button
                 android:id="@+id/button5"
@@ -90,7 +99,8 @@
                 android:layout_margin="3dp"
                 android:layout_weight="1"
                 android:text="6"
-                android:textSize="45sp" />
+                android:textSize="45sp"
+                app:backgroundTint="#FF9800" />
         </TableRow>
 
         <TableRow
@@ -105,7 +115,8 @@
                 android:layout_margin="3dp"
                 android:layout_weight="1"
                 android:text="1"
-                android:textSize="45sp" />
+                android:textSize="45sp"
+                app:backgroundTint="#FF9800" />
 
             <Button
                 android:id="@+id/button9"
@@ -114,7 +125,8 @@
                 android:layout_margin="3dp"
                 android:layout_weight="1"
                 android:text="2"
-                android:textSize="45sp" />
+                android:textSize="45sp"
+                app:backgroundTint="#FF9800" />
 
             <Button
                 android:id="@+id/button8"
@@ -123,7 +135,8 @@
                 android:layout_margin="3dp"
                 android:layout_weight="1"
                 android:text="3"
-                android:textSize="45sp" />
+                android:textSize="45sp"
+                app:backgroundTint="#FF9800" />
         </TableRow>
 
         <TableRow
@@ -138,7 +151,8 @@
                 android:layout_margin="3dp"
                 android:layout_weight="1"
                 android:text="0"
-                android:textSize="45sp" />
+                android:textSize="45sp"
+                app:backgroundTint="#FF9800" />
 
             <Button
                 android:id="@+id/button11"
@@ -147,7 +161,8 @@
                 android:layout_margin="3dp"
                 android:layout_weight="2"
                 android:text="="
-                android:textSize="45sp" />
+                android:textSize="45sp"
+                app:backgroundTint="#FF9800" />
         </TableRow>
 
     </TableLayout>
@@ -182,7 +197,8 @@
             android:layout_margin="3dp"
             android:layout_weight="1"
             android:text="X"
-            android:textSize="45sp" />
+            android:textSize="45sp"
+            app:backgroundTint="#FF9800" />
 
         <Button
             android:id="@+id/button14"
@@ -191,7 +207,8 @@
             android:layout_margin="3dp"
             android:layout_weight="1"
             android:text="-"
-            android:textSize="45sp" />
+            android:textSize="45sp"
+            app:backgroundTint="#FF9800" />
 
         <Button
             android:id="@+id/button13"
@@ -200,16 +217,18 @@
             android:layout_margin="3dp"
             android:layout_weight="1"
             android:text="+"
-            android:textSize="45sp" />
+            android:textSize="45sp"
+            app:backgroundTint="#FF9800" />
 
         <Button
             android:id="@+id/button16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="3dp"
-            android:layout_weight="1.3"
+            android:layout_weight="1.2"
             android:text="/"
-            android:textSize="35sp" />
+            android:textSize="35sp"
+            app:backgroundTint="#FF9800" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
